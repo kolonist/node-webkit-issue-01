@@ -1,0 +1,27 @@
+{
+    "name": "test",
+    "description": "test app",
+    "version": "0.0.1",
+
+    "main": "index.html",
+
+    "window": {
+        "title": "test app",
+
+        "width" : 250,
+        "height": 250,
+
+        "toolbar" : false,
+        "position": "center",
+
+        "show": false
+    },
+
+    "maintainers": [
+        {
+            "name" : "Alexander Zubakov",
+            "email": "developer@xinit.ru",
+            "web"  : "http://xinit.ru/"
+        }
+    ]
+}

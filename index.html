@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>test app</title>
+
+        <style>
+* {
+    margin : 0;
+    padding: 0;
+}
+p {
+    margin: 5px;
+}
+
+        </style>
+
+        <!-- save and restore window state -->
+        <script src="app.js"></script>
+    </head>
+    <body>
+        <p>Resize window and you will see dimensions. Open and close it several times - you should see that height grows.</p>
+        <p>
+            <strong>width: </strong> <span id="id-width" ></span><br>
+            <strong>height:</strong> <span id="id-height"></span>
+        </p>
+    </body>
+</html>
